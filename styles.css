@@ -172,8 +172,17 @@ background-color: #afc7c6;
     margin-top: -40px;
 }
 h5{
-    color: black;
+    color: white;
+    background-color: #212121;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-size: 2em;
 }
 h5 i{
     border: none;
+    font-size: 1em;
+    
+}
+h5:hover > i{
+   color: red;
 }
