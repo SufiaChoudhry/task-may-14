@@ -1,39 +1,45 @@
 
-
+body{
+    margin: 0px;
+}
    
 marquee{
     background-color: red;
 }
 
-nav {
+header {
     background-color: darkslategrey;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+   
+}
+nav{
+    height: 50px;
+    width:100px;
+    position: relative;
+}
+.nav-bar a{
+    padding: 13px 10px 13px 10px;
 }
 
-nav ul {
-    display: inline-flex;
-    justify-content: center;
+#anchor{
+    margin-left: 48em;
 }
-.logo{
-    padding-left: 10px;
-    border: none;
+nav ul {
+    display: flex;
+   
 }
 
 nav ul li {
-    list-style-type: none;
-    padding-left: 26px;
-    font-style: oblique;
+     list-style-type: none;   
     font-size: 20px;
 }
 
 nav ul li a {
+    
     text-decoration: none;
-    color: white;
-}
-
-.items {
-    padding-left: 48.5em;
+    color: white;    
 }
 
 h1 {
@@ -114,24 +120,29 @@ h3{
     border: none;
 }
 
-section{
+.portfolio{
     background-image: url("images/floral.png");
     background-color: #ddceb4;
+    display: flex;
+    flex-direction: column;
 }
-.content{
-    text-align: center;
-}
+
+
 .portfolio h2{
     border-bottom: 1px solid black;
     margin-left: 5em;
     margin-right: 6em;
     padding-top: 1em;
+    padding-bottom: 1em;
 }
+ 
 .portfolio p{
     font-size: 2em;
     color: black;
   
 }
+
+
 #prg{
     border-bottom: 2px solid rgba(0,0,0,0.5);
     margin-left: 7em;
@@ -140,10 +151,20 @@ section{
     padding-bottom: 1em;
     
 }
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+#container{
+    display: flex;
+    justify-content: center;
+
+}
 
 .image{
     width: 300px;
-    height: 230px;
+    height: 250px;
    border-radius: 20px;
    border: 1px solid rgba(255,255,255,0.5);
 }
@@ -152,16 +173,21 @@ h4{
 }
 i{
     font-size: 3em;
-    padding: 20px;
+    padding: 13px;
     border-radius: 50px;
     border: 1px solid white;
     margin:10px;
 }
 
 
+
 .fig{
     display: flex;
     
+}
+.fig i{
+font-size: 2em;
+
 }
 .contact{
 background-image: url("images/floral.png");
@@ -186,3 +212,13 @@ h5 i{
 h5:hover > i{
    color: red;
 }
+.fcaption{
+    display: none;
+}
+.fig:hover > .fcaption{
+    display: block;
+    cursor: pointer;
+    background-color: black;
+}
+
+   
