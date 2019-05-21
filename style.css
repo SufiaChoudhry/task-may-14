@@ -1,0 +1,239 @@
+/* write your styles here */
+
+body{
+    margin: 0px;
+}
+   
+marquee{
+    background-color: red;
+}
+
+header {
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+   
+}
+nav{
+    height: 50px;
+    width:100px;
+    position: relative;
+}
+.nav-bar a{
+    padding: 13px 10px 13px 10px;
+}
+
+#anchor{
+    margin-left: 48em;
+}
+nav ul {
+    display: flex;
+   
+}
+
+nav ul li {
+     list-style-type: none;   
+    font-size: 20px;
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    color: white;    
+}
+
+h1 {
+    font-size: 3em;
+    border-bottom: 1px solid black;
+    margin-left: 6em;
+    margin-right: 6em;
+    color: black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+.about {
+    background-image: url("images/floral.png");
+    background-color: #f18d97;
+    text-align: center;
+    color: white;
+    margin-top: -41px;
+}
+
+.paragraph {
+    font-size: 30px;
+    color: black;
+    border-bottom: 1px solid black;
+    margin-left: 9em;
+    margin-right: 9em;
+    
+
+}
+
+
+button {
+    color: #f18d97;
+    background-color: black;
+    padding: 10px 4em 10px 4em;
+    font-size: 30px;
+    font-family: 'Baloo Bhai', cursive;
+    border: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+nav ul li a:hover {
+    color: blueviolet;
+    background-color: white;
+}
+
+h2{
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+    color: black;
+    text-align: center;
+}
+.service {
+    background-image: url("images/floral.png");
+    background-color: gainsboro;
+    color: black;
+    margin-bottom: -3em;
+}
+
+
+#figure{
+   
+    display: inline-flex;
+    
+}
+.lorem{
+    font-size: 2em;   
+    margin-bottom: 1em; 
+}
+h3{
+    font-size: 3em;
+}
+#figure i{
+    font-size: 100px;
+    border: none;
+}
+
+.portfolio{
+    background-image: url("images/floral.png");
+    background-color: #ddceb4;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.portfolio h2{
+    border-bottom: 1px solid black;
+    margin-left: 5em;
+    margin-right: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+ 
+.portfolio p{
+    font-size: 2em;
+    color: black;
+  
+}
+
+
+#prg{
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+    margin-left: 7em;
+    margin-right: 9em;
+    border-width: thick;
+    padding-bottom: 1em;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+#container{
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+.image{
+    width: 300px;
+    height: 250px;
+   border-radius: 20px;
+   border: 1px solid rgba(255,255,255,0.5);
+}
+h4{
+    font-size: 1.5em;
+}
+i{
+    font-size: 3em;
+    padding: 13px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin:10px;
+}
+
+
+
+.fig{
+    display: flex;
+    position: relative;
+    
+}
+.fig i{
+font-size: 2em;
+
+}
+#contact i:hover{
+color: #fcdea6;
+background-color: black;
+}
+.contact{
+background-image: url("images/floral.png");
+background-color: #afc7c6;
+
+
+}
+#contact{
+    margin-top: -40px;
+}
+h5{
+    color: white;
+    background-color: #212121;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-size: 2em;
+}
+h5 i{
+    border: none;
+    font-size: 1em;
+    
+}
+h5:hover > i{
+   color: red;
+}
+.fcaption{
+   position: absolute;
+   width: 300px;
+   height: 250px;
+  border-radius: 20px;
+
+}
+.fig:hover > .fcaption{
+    display: block;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+ 
+
+ 
