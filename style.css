@@ -253,3 +253,15 @@ h3{
 footer{
   background-color: #212121;
 }
+
+@media only screen and (max-width: 600px) {
+  
+  #figure{
+    display: flex;
+    flex-direction: column;
+  }
+  #container{
+    display: flex;
+    flex-direction: column;
+  }
+}
