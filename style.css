@@ -1,234 +1,255 @@
-
-body{
-    margin: 0px;
-}
-   
-marquee{
-    background-color: red;
+body{ display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
-header {
-    background-color: darkslategrey;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-   
-}
-nav{
-    height: 50px;
-    width:100px;
-    position: relative;
-}
-.nav-bar a{
-    padding: 13px 10px 13px 10px;
+marquee {
+  background-color: red;
+  font-weight: bold;
+  display: flex;
 }
 
-#anchor{
-    margin-left: 48em;
+header{
+
+  display: flex;
+  align-items: center;
+  padding: 13px 0;
+  justify-content: space-between;
+  background-color: #4c4c4c;
+  line-height: 10px;
+}
+nav a{
+  text-decoration: none;
+  color: #bfbfbf;
+  font-weight: bold;
+  font-weight: bold;
+  
+}
+nav li{
+  list-style-type: none;
+  padding: 13px 10px 13px 10px;
+ 
 }
 nav ul {
-    display: flex;
-   
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 
-nav ul li {
-     list-style-type: none;   
-    font-size: 20px;
+nav a:hover{
+  background-color: aliceblue;
 }
 
-nav ul li a {
-    
-    text-decoration: none;
-    color: white;    
+#logo img{
+  height: 40px;
 }
 
-h1 {
-    font-size: 3em;
-    border-bottom: 1px solid black;
-    margin-left: 6em;
-    margin-right: 6em;
-    color: black;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    
+#main{
+  display: flex;
+ flex-direction: column;
+  background-color: #f18d97;
+  justify-content: center; 
+  background-image: url("images/floral.png");
 }
 
-.about {
-    background-image: url("images/floral.png");
-    background-color: #f18d97;
-    text-align: center;
-    color: white;
-    margin-top: -41px;
+h1{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
 }
 
-.paragraph {
-    font-size: 30px;
-    color: black;
-    border-bottom: 1px solid black;
-    margin-left: 9em;
-    margin-right: 9em;
-    
-
+#about-tech{
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  font-size: 25px;
+  margin: 0 11em;
+  
 }
 
+.join{
+  margin-top: 20px; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+ button{
+  background-color: #170d0e;
+  border: none;
+  padding: 1em 4em;
+  color: #f18d97;
+  font-size: 26px;
 
-button {
-    color: #f18d97;
-    background-color: black;
-    padding: 10px 4em 10px 4em;
-    font-size: 30px;
-    font-family: 'Baloo Bhai', cursive;
-    border: none;
-    margin-top: 1em;
-    margin-bottom: 1em;
+ }
+
+ button:hover{
+   background-color: wheat;
+ }
+
+
+ .service{
+  background-image: url("images/floral.png");
+  background-color: #efece7; 
+ }
+
+
+
+ h2{
+  padding-top: 19px;
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+  text-align: center;
+ }
+
+#figure{ 
+  display: inline-flex;
+text-align: center;
 }
 
-
-nav ul li a:hover {
-    color: blueviolet;
-    background-color: white;
+figure i{
+  font-size: 7em;
 }
 
-h2{
-    font-size: 3em;
-    font-family: 'Pacifico', cursive;
-    color: black;
-    text-align: center;
-}
-.service {
-    background-image: url("images/floral.png");
-    background-color: gainsboro;
-    color: black;
-    margin-bottom: -3em;
-}
-
-
-#figure{
-   
-    display: inline-flex;
-    
-}
 .lorem{
-    font-size: 2em;   
-    margin-bottom: 1em; 
+  font-size: 25px;
 }
+
 h3{
-    font-size: 3em;
-}
-#figure i{
-    font-size: 100px;
-    border: none;
+  font-size: 3em;
 }
 
 .portfolio{
-    background-image: url("images/floral.png");
-    background-color: #ddceb4;
-    display: flex;
-    flex-direction: column;
+  background-image: url("images/floral.png");
+  background-color: #ddceb4;
+  display: flex;
+  flex-direction: column;
 }
 
 
 .portfolio h2{
-    border-bottom: 1px solid black;
-    margin-left: 5em;
-    margin-right: 6em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+  border-bottom: 1px solid black;
+  margin-left: 5em;
+  margin-right: 6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
- 
+
 .portfolio p{
-    font-size: 2em;
-    color: black;
-  
-}
-
-
-#prg{
-    border-bottom: 2px solid rgba(0,0,0,0.5);
-    margin-left: 7em;
-    margin-right: 9em;
-    border-width: thick;
-    padding-bottom: 1em;
-    
-}
-.container{
-    display: flex;
-    justify-content: center;
-   
-}
-#container{
-    display: flex;
-    justify-content: center;
-  
+  font-size: 2em;
+  color: black;
 
 }
 
 .image{
-    width: 300px;
-    height: 250px;
-   border-radius: 20px;
-   border: 1px solid rgba(255,255,255,0.5);
-}
-h4{
-    font-size: 1.5em;
-}
-i{
-    font-size: 3em;
-    padding: 13px;
-    border-radius: 50px;
-    border: 1px solid white;
-    margin:10px;
+  width: 300px;
+  height: 250px;
+ border-radius: 20px;
+ border: 1px solid rgba(255,255,255,0.5);
+
 }
 
-
-
-.fig{
-    display: flex;
-    position: relative;
-    
-}
 .fig i{
-font-size: 2em;
+  font-size: 2em;
+  padding: 0 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+color: white;
+  }
 
+  
+.fig{
+  display: flex;
+  position: relative;
+  
 }
-#contact i:hover{
-color: #fcdea6;
-background-color: black;
-}
-.contact{
-background-image: url("images/floral.png");
-background-color: #afc7c6;
 
-
-}
-#contact{
-    margin-top: -40px;
-}
-h5{
-    color: white;
-    background-color: #212121;
- margin-top: 0px;
- margin-bottom: 0px;
- font-size: 2em;
-}
-h5 i{
-    border: none;
-    font-size: 1em;
-    
-}
-h5:hover > i{
-   color: red;
-}
 .fcaption{
-    display: none;
-   position: absolute;
-   width: 300px;
-   height: 250px;
-  border-radius: 20px;
-
+  display: none;
+ position: absolute;
+ width: 300px;
+ height: 250px;
+ 
+border-radius: 20px;
+text-align: center;
 }
+
+
+#prg{
+  border-bottom: 2px solid rgba(0,0,0,0.5);
+  margin-left: 7em;
+  margin-right: 9em;
+  border-width: thick;
+  padding-bottom: 1em;
+  
+}
+
 .fig:hover > .fcaption{
     display: block;
     cursor: pointer;
     background-color: black;
+}
+h4{
+  font-size: 20px;
+  color: white;
+  margin-top: 79px;
+}
+#container{
+  display: flex;
+  justify-content: center;
+}
+
+.contact{
+  background-image: url("images/floral.png");
+  background-color: #afc7c6;
+}
+
+.contact-icon{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.contact-icon i{
+  border: 1px solid black;
+  font-size: 3em;
+  padding: 10px 10px;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
+
+h3{
+  text-align: center;
+ 
+}
+
+.contact-icon i{
+  color: white;
+ margin-bottom: 20px;
+}
+.contact-icon i:hover{
+  color: #fcdea6;
+  background-color: black;
+  }
+
+  h5:hover > i{
+    color: red;
+ }
+
+ h5{
+   text-align: center; 
+   font-size: 30px;
+   color: white;
+
+ }
+
+ .portfolio p{
+   text-align: center;
+ }
+
+
+
+footer{
+  background-color: #212121;
 }

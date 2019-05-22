@@ -1,46 +1,65 @@
-<!-- write your html here -->
 <!DOCTYPE html>
 <html lang="en">
 
+
+
+
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
-    <link rel="stylesheet"  type="text/css" href="style.css">
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Anton|Libre+Baskerville|Lobster&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
+
     <marquee>Special Offer, just for Pakistani Citizents! Get <mark> 50 % discount</mark> on any thing. </marquee>
+
+
     <header>
-    <div><img class="logo" src="images/logo.png" alt="logo" height="50"></div>
-    <div class="nav-bar">
-        <nav>
-            <ul class="items">
-                <li id="anchor"><a href="#">service</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+        <div id="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+
+        <nav id="top-menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
             </ul>
         </nav>
-    </div>
+
     </header>
-    <div class="about">
-        <h1>Tech karo, CIRCLE</h1>
-        <div class="paragraph">
-            <p>We are Tech Student and we work hard!We Self-Learn and NEVER</p>
-            <p> give up!join our team bacause tech is the future</p>
-        </div>
-        <button>Join Now</button>
-        
+
+    <div id="main">
+
+        <div id="about">
+
+            <h1>Tech Karo, Circle</h1>
+
+            <div id="about-tech">
+                <p>We are Tech Karo Students, and We Work Hard!WE Self-learn and NEVER</p>
+                <P>give up! join our team,because Tech is the future!</P>
+            </div>
+            <div class="join">
+                <button>join now!</button>
+            </div>
+
+            <!-- section2 -->
+
             <div class="service">
                 <h2>Our Services</h2>
                 <div id="figure">
-                   <figure>
+                    <figure>
                         <i class="fab fa-html5"></i>
-                        <figcaption >
+                        <figcaption>
                             <h3>HTML</h3>
                             <p class="lorem"> Lorem, ipsum dolor sit amet consectetur
                                 adipisicing elit. Rem accusamus deleniti
@@ -51,7 +70,7 @@
                     </figure>
                     <figure>
                         <i class="fab fa-css3-alt"></i>
-                        <figcaption >
+                        <figcaption>
                             <h3>CSS</h3>
                             <p class="lorem"> Lorem, ipsum dolor sit amet consectetur
                                 adipisicing elit. Rem accusamus deleniti
@@ -62,7 +81,7 @@
                     </figure>
                     <figure>
                         <i class="fab fa-js"></i>
-                        <figcaption >
+                        <figcaption>
                             <h3>JS</h3>
                             <p class="lorem"> Lorem, ipsum dolor sit amet consectetur
                                 adipisicing elit. Rem accusamus deleniti
@@ -73,105 +92,100 @@
                     </figure>
                 </div>
             </div>
+        </div>
+
+        <!-- section3 -->
+
+
+        <div class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Our student have been working really hard here are some of their</p>
+            <p id="prg"> projects</p>
+
+            <div id="container">
+                <div>
+                    <figure class="fig">
+                        <img Class="image" src="images/projects/p-1.png" alt="Zunaish project">
+                        <figcaption class="fcaption">
+                            <h4>Zunaish hijab</h4>
+                            <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure class="fig">
+
+                        <img class="image" src="images/projects/p-2.png" alt="Reachout project">
+                        <figcaption class="fcaption">
+                            <h4>Reachout</h4>
+                            <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure class="fig">
+                        <img class="image" src="images/projects/p-3.png" alt="olx project">
+                        <figcaption class="fcaption">
+                            <h4>OLX</h4>
+                            <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+
+            <div id="container">
+                <div>
+                    <figure class="fig">
+                        <img class="image" src="images/projects/p-4.png" alt="Featured Collection project">
+                        <figcaption class="fcaption">
+                            <h4>Featured Collection</h4>
+                            <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure class="fig">
+                        <img class="image" src="images/projects/p-5.png" alt="applestore project">
+                        <figcaption class="fcaption">
+                            <h4>Apple Store</h4>
+                            <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure class="fig">
+                        <img class="image" src="images/projects/p-6.png" alt="shop">
+                        <figcaption class="fcaption">
+                            <h4>Shop</h4>
+                            <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+                <!-- secion4 -->
+
+                <section class="contact">
+                    <div id="contact-description">
+                        <h3>Contact US</h3>
+                        <div class="contact-icon">
+                        <i class="fab fa-twitter"></i><i class="fab fa-youtube"></i><i
+                            class="fab fa-facebook-square"></i>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <footer>
+                        <h5>Made with <i class="fas fa-heart"></i> by Sarah Ahmed</h5>
+                    </footer>
+
+
+
+
            
-          <div  class="portfolio">
-                    <h2>Portfolio</h2>
-                    <p>Our student have been working really hard here are some of their</p>
-                    <p id="prg"> projects</p>
-
-                    <div class="container">
-                            <div> 
-                                 <figure class="fig">
-                                    <img Class="image" src="images/projects/p-1.png" alt="Zunaish project">
-                                    <figcaption class="fcaption">
-                                        <h4>Zunaish hijab</h4>
-                                        <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
-                                    </figcaption>
-                                 </figure>
-                                </div>
-                            <div> 
-                                <figure class="fig">
-
-                                    <img class="image" src="images/projects/p-2.png" alt="Reachout project">
-                                    <figcaption class="fcaption">
-                                        <h4>Reachout</h4>
-                                        <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            <div>
-                                 <figure class="fig">
-                                    <img class="image" src="images/projects/p-3.png" alt="olx project">
-                                    <figcaption class="fcaption">
-                                        <h4>OLX</h4>
-                                        <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
-                                    </figcaption>
-                                </figure>
-                            </div>
-          </div>
-
-<div id="container">
-<div>
-     <figure class="fig">
-        <img class="image" src="images/projects/p-4.png" alt="Featured Collection project">
-        <figcaption class="fcaption">
-            <h4>Featured Collection</h4>
-            <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
-        </figcaption>
-    </figure>
-</div>
-<div>
-        <figure class="fig">
-                <img class="image" src="images/projects/p-5.png" alt="applestore project">
-                <figcaption class="fcaption">
-                    <h4>Apple Store</h4>
-                    <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
-                </figcaption>
-            </figure>
-</div>
-<div>
-        <figure class="fig">
-                <img class="image" src="images/projects/p-6.png" alt="shop">
-                <figcaption class="fcaption">
-                    <h4>Shop</h4>
-                    <i class="far fa-eye"></i><i class="far fa-thumbs-up"></i><i class="fas fa-heart"></i>
-                </figcaption>
-            </figure>
-</div>
-
-
-
-
-
-                            </div>
-                            
-                          </div>
-
-
-
-
-
-
-
-
-
-          </section>
-<section class="contact">
-    <div id="contact">
-<h2>Contact US</h2>
-<i class="fab fa-twitter"></i><i class="fab fa-youtube"></i><i class="fab fa-facebook-square"></i>
-
-    </div>
-
-</section>
-<footer>
-    <h5>Made with <i class="fas fa-heart"></i> by Sarah Ahmed</h5>
-</footer>
-
-
-
-
-
 
 
 </body>
