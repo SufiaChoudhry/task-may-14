@@ -199,6 +199,7 @@ h4{
   justify-content: center;
 }
 
+
 .contact{
   background-image: url("images/floral.png");
   background-color: #afc7c6;
@@ -247,8 +248,7 @@ h3{
  .portfolio p{
    text-align: center;
  }
-
-
+ 
 
 footer{
   background-color: #212121;
@@ -264,4 +264,20 @@ footer{
     display: flex;
     flex-direction: column;
   }
+
+  h1{
+    text-align: center;
+  }
+
+ #about-tech{
+   text-align: center;
+ }
+ h2{
+   text-align: center;
+ }
+ p{
+   text-align: center;
+ }
+ #prg{ text-align: center;
+}
 }
