@@ -179,6 +179,7 @@ text-align: center;
   font-size: 2em;
   color: black;
   padding-top: 22px;
+  text-align: center;
   
 }
 
@@ -289,7 +290,7 @@ h3{
 
 p{
 display: flex;
-justify-content: center;
+align-items: center;
 }
 
 }
