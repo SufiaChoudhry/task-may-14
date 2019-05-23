@@ -64,8 +64,15 @@ h1{
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   font-size: 25px;
-  margin: 0 11em;
-  
+  margin: 0  12em;
+}
+#about-tech p{
+  margin: 20px 0;
+}
+
+figure > i:hover{
+  color: #f18d97;
+  transition: color 1sec;
 }
 
 .join{
@@ -126,22 +133,8 @@ h3{
 }
 
 
-.portfolio h2{
-  border-bottom: 1px solid black;
-  margin-left: 5em;
-  margin-right: 6em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.portfolio p{
-  font-size: 2em;
-  color: black;
-
-}
-
 .image{
-  width: 300px;
+  width: 100%;
   height: 250px;
  border-radius: 20px;
  border: 1px solid rgba(255,255,255,0.5);
@@ -155,6 +148,7 @@ h3{
   border-radius: 50%;
   padding: 10px;
 color: white;
+margin: 0px 10px;
   }
 
   
@@ -167,7 +161,7 @@ color: white;
 .fcaption{
   display: none;
  position: absolute;
- width: 300px;
+ width: 100%;
  height: 250px;
  
 border-radius: 20px;
@@ -175,12 +169,16 @@ text-align: center;
 }
 
 
-#prg{
+.portfolio p{
   border-bottom: 2px solid rgba(0,0,0,0.5);
+  border-top: 1px solid black;
   margin-left: 7em;
   margin-right: 9em;
-  border-width: thick;
+  border-bottom-width: thick;
   padding-bottom: 1em;
+  font-size: 2em;
+  color: black;
+  padding-top: 22px;
   
 }
 
@@ -189,6 +187,12 @@ text-align: center;
     cursor: pointer;
     background-color: black;
 }
+
+.fcaption i:hover{
+background-color: palevioletred;
+
+}
+
 h4{
   font-size: 20px;
   color: white;
@@ -245,9 +249,7 @@ h3{
 
  }
 
- .portfolio p{
-   text-align: center;
- }
+ 
  
 
 footer{
@@ -275,9 +277,19 @@ footer{
  h2{
    text-align: center;
  }
- p{
-   text-align: center;
- }
- #prg{ text-align: center;
+ 
+h3{
+  text-align: center;
+ 
 }
+
+.portfolio p{
+  text-align: center;
+}
+
+p{
+display: flex;
+justify-content: center;
+}
+
 }
